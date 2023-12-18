@@ -1,0 +1,136 @@
+.container {
+  height: 100vh;
+  padding-top: 40px;
+}
+body {
+  background: #eae9e9;
+}
+.user-panel {
+  background: #ffffff;
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.nameLable,
+.surnameLable,
+.email,
+.age,
+.password {
+  font-size: 25px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.nameLableInput,
+.surnameLableInput,
+.emailLableInput,
+.ageLableInput,
+.PasswordLableInput,
+.input {
+  outline-color: rgb(0, 0, 204);
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input {
+  padding: 5px;
+}
+.bx-x-circle {
+  color: red;
+  font-size: 30px;
+  margin-top: -10px;
+  margin-left: 96%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.reset {
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 12px 32px;
+  font-size: 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.reset:hover {
+  background-color: #5e9cf9;
+}
+.reset:active {
+  background-color: #003585;
+}
+
+.add {
+  background-color: #198754;
+  color: #fff;
+  padding: 12px 32px;
+  font-size: 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.add:hover {
+  background-color: #24bc75;
+}
+
+.add:active {
+  background-color: #004726;
+}
+.password-1 {
+  font-size: 25px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+/*   =====================================    */
+
+.passwordContainer {
+  position: relative;
+  height: 60px;
+  padding-bottom: 5px;
+}
+.input {
+  position: relative;
+  font-family: "poppins", sans-serif;
+}
+.fas {
+  display: block;
+  float: right;
+  margin-right: 15px;
+  margin-top: -50px;
+  position: relative;
+  color: #555;
+  font-size: 23px;
+  cursor: pointer;
+  z-index: 3;
+  display: none;
+}
+#eye {
+  display: none;
+}
+
+.show-user-panel {
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  display: block;
+  background: #0080ff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: none;
+}
+.show-user-panel:hover {
+  background-color: #5e9cf9;
+}
